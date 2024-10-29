@@ -1,0 +1,60 @@
+body{
+    
+        font-family: 'Roboto', sans-serif;
+      
+      
+    background-color:#f3f5f9
+}
+#call-button{
+    border-radius: 10px;
+    background-color:rgb(20, 82, 238);
+    padding:9px 15px 9px 15px; 
+    cursor: pointer;
+}
+#login-button{
+    border-radius: 10px;
+    background-color:rgb(20, 82, 238);
+    padding:9px 15px 9px 15px; 
+    cursor: pointer;
+}
+.carousel {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .carousel-slide h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .carousel-slide p {
+    color: gray;
+    font-size: 0.9em;
+  }
+  
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: gray;
+  }
+  
